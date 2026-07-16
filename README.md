@@ -1,21 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# GPS Map Camera
 
-# Run and deploy your AI Studio app
+GeoStamp Camera is a powerful, offline-ready GPS camera application designed specifically for field inspections, project management, and site documentation. It allows users to capture photos and videos, automatically embedding essential metadata like location, timestamp, site name, and project details directly onto the media using customizable visual templates.
 
-This contains everything you need to run your app locally.
+## Key Features
 
-View your app in AI Studio: https://ai.studio/apps/444512c6-291a-48a7-b726-455c5ea8ade0
+- **Geo-Tagging**: Automatically captures GPS coordinates during photo and video capture.
+- **Customizable Stamping**: Apply professional-grade stamp overlays with configurable templates, supporting data such as:
+  - Date & Time
+  - Current Address
+  - Site Name
+  - Project Name
+- **Offline-First**: Built for reliable performance in remote or low-connectivity environments, ensuring all data is stored locally.
+- **Integrated Management**: Browse, manage, and share your captured inspections directly through the built-in gallery.
+- **Modern Android Experience**: A polished, responsive user interface built with Jetpack Compose, offering a smooth, intuitive experience.
 
-## Run Locally
+## Technology Stack
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- **Platform**: Android
+- **Language**: Kotlin
+- **UI Framework**: Jetpack Compose (Material Design 3)
+- **Local Persistence**: Room Database
+- **Metadata Handling**: Advanced image/video processing for stamp overlays.
 
+## Getting Started
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+1. **Clone the repository.**
+2. **Open in Android Studio.**
+3. **Build and Run**: The project uses Gradle (Kotlin DSL). Simply sync the project and launch on your device or emulator.
+
+## License
+
+This project is proprietary. All rights reserved.
