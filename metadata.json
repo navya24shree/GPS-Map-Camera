@@ -1,0 +1,6 @@
+{
+  "name": "GPS Map Camera",
+  "description": "GeoStamp Camera is an offline-ready GPS camera app for cataloguing inspections, site photos with multiple custom visual templates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
