@@ -73,7 +73,7 @@ fun SplashScreen(onNavigateToHome: () -> Unit) {
             )
             Spacer(modifier = Modifier.height(24.dp))
             Text(
-                text = "GPS Map Camera",
+                text = "Geo Stamp Camera",
                 fontWeight = FontWeight.Bold,
                 fontSize = 28.sp,
                 color = Color.White,
